@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery | Example </title>
+    <style>
+        body {
+            background-color: rgb(110, 119, 110);
+        }
+
+        img {
+            width: 100px;     
+            margin-left: 70px;
+
+            border: 10px solid rgb(78, 84, 78);
+        }
+
+        .original {
+            text-align: center;
+            margin-top: 150px;
+        }
+
+        .reversed {
+            text-align: center; 
+        }
+
+
+        .i-1 {
+            transform: rotate(30deg);
+        }
+
+        .i-2 {
+            transform: rotate(-30deg);
+        }
+
+        .reversed-1 {
+            transform: rotate(150deg);
+        }
+
+        .reversed-2 {
+            transform: rotate(210deg);
+        }
+    
+        .reversed-4 {
+            transform: rotate(-210deg);
+        }
+
+        .reversed-5 {
+            transform: rotate(-150deg);
+        }
+    </style>
+</head>
+<body>
+
+    <p class="original">
+        <img class="i-1" src="https://fastly.picsum.photos/id/338/400/600.jpg?hmac=jBPWPvkVzsfyawbDduGKmTO_lR0mq_j3R-2KngcnnPI" alt="">
+        <img class="i-2" src="https://fastly.picsum.photos/id/109/400/600.jpg?hmac=883WIEqrkp6h2SHi37-l6CIOzuF-KL0Fx_kcmznfQro" alt="">
+        <img src="https://fastly.picsum.photos/id/855/400/600.jpg?hmac=EsVC0RBInuSyP1dUni6whsLQNU3XYr-q46kNXyTadTg" alt="">
+        <img class="i-1" src="https://fastly.picsum.photos/id/347/400/600.jpg?hmac=LqeufSWzj3ol_0D9_DHcigseuT5_6zGhFNPfJTDRa_o" alt="">
+        <img class="i-2" src="https://fastly.picsum.photos/id/686/400/600.jpg?hmac=9d14XXBdGqzD-UE1Wv2bmsAFqyVz7NzFwClh_kzXD7c" alt="">
+    </p>
+
+    <p class="reversed">
+        <img class="reversed-1" src="https://fastly.picsum.photos/id/338/400/600.jpg?hmac=jBPWPvkVzsfyawbDduGKmTO_lR0mq_j3R-2KngcnnPI" alt="">
+        <img class="reversed-2" src="https://fastly.picsum.photos/id/109/400/600.jpg?hmac=883WIEqrkp6h2SHi37-l6CIOzuF-KL0Fx_kcmznfQro" alt="">
+        <img src="https://fastly.picsum.photos/id/855/400/600.jpg?hmac=EsVC0RBInuSyP1dUni6whsLQNU3XYr-q46kNXyTadTg" alt="">
+        <img class="reversed-4" src="https://fastly.picsum.photos/id/347/400/600.jpg?hmac=LqeufSWzj3ol_0D9_DHcigseuT5_6zGhFNPfJTDRa_o" alt="">
+        <img class="reversed-5" src="https://fastly.picsum.photos/id/686/400/600.jpg?hmac=9d14XXBdGqzD-UE1Wv2bmsAFqyVz7NzFwClh_kzXD7c" alt="">
+    </p>
+
+    
+</body>
+</html>
